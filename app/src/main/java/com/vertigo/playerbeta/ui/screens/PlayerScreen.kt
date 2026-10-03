@@ -143,6 +143,7 @@ fun PlayerScreen(viewModel: PlayerViewModel, activity: MainActivity) {
             Spacer(modifier = Modifier.height(8.dp))
 
             // 📂 LIBRARY TABS: Navigation between different organizational views
+
             TabRow(
                 selectedTabIndex = viewModel.libraryTab.ordinal,
                 containerColor = MaterialTheme.colorScheme.surface,
